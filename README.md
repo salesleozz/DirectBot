@@ -1,7 +1,7 @@
 apresento a voces um disparador de mensagens no direct do instagram que dispara suas mensagens baseada em uma tabela no banco de dados do usuario (ele so captura os dados da coluna chamada "username")
 
 passo a passo
-- inicialo o codigo no vscode ou na ide que voces programam
+- iniciar o codigo no vscode ou na IDE que voces programam
 - va no arquivo app.py e altere os campos my_username e my_password
 - entre em database.py e altere o banco de dados que irao utilizar
 - entrem em static/css/images e altere a imagem que esta la para a logo/icon que desejarem
