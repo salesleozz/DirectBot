@@ -1,29 +1,103 @@
-apresento a voces um disparador de mensagens no direct do instagram que dispara suas mensagens baseada em uma tabela no banco de dados do usuario (ele so captura os dados da coluna chamada "username")
+# 💌 Disparador de Mensagens no Direct do Instagram
 
-passo a passo
-- iniciar o codigo no vscode ou na IDE que voces programam
-- va no arquivo app.py e altere os campos my_username e my_password
-- entre em database.py e altere o banco de dados que irao utilizar
-- entrem em static/css/images e altere a imagem que esta la para a logo/icon que desejarem
-- entrem em templates/index.html e altere o caminho para a imagem
-- apos isso ja esta tudo configurado para inicar o codigo
-- abra o terminal digite "python app.py" e clique no link de localhost gerado no terminal
-- no primeiro campo esta o select da tabela que deseja utilizar
-- no segundo uma caixa de texto, na qual o usuario ira escrever o a mensagem desejada para ser disparada
-- e por ultimo o deley em segundos para cada mensagem
+Apresento a vocês uma ferramenta para enviar mensagens no Direct do Instagram, que dispara suas mensagens baseadas em uma tabela no banco de dados do usuário (ela captura dados apenas da coluna chamada **`username`**).
 
+---
 
-Introducing a tool for sending direct messages on Instagram, which sends messages based on a table in the user’s database (it only pulls data from the column named "username").
+## 🚀 Passo a Passo
 
-Step by step:
+- Inicie o código no VSCode ou na IDE que você preferir.  
+- Vá para o arquivo **`app.py`** e altere os campos `my_username` e `my_password`.  
+- Abra **`database.py`** e configure o banco de dados que deseja utilizar.  
+- Acesse **`static/css/images`** e substitua a imagem atual pela logo ou ícone que preferir.  
+- Abra **`templates/index.html`** e atualize o caminho da imagem.  
+- Tudo pronto para iniciar o código!  
+- Abra o terminal, digite `python app.py` e clique no link do localhost gerado.  
+- No primeiro campo, selecione a tabela que deseja usar no banco de dados.  
+- No segundo campo, escreva a mensagem que quer disparar.  
+- No terceiro campo, defina o delay em segundos entre cada mensagem (para evitar bloqueios).
 
-- Start the code in VSCode or your preferred IDE.
-- Go to the app.py file and update the my_username and my_password fields.
-- Open database.py and set up the database you want to use.
-- Go to static/css/images and replace the existing image with the logo/icon you want.
-- Open templates/index.html and update the image path.
-- Now everything is set up to start the code.
-- Open the terminal, type python app.py, and click on the localhost link generated in the terminal.
-- In the first field, select the table you want to use.
-- In the second field, there is a text box where the user can type the desired message to be sent.
-- Lastly, set the delay in seconds between each message.
+---
+
+## 🧠 Como Funciona
+
+- Envio automático de mensagens no Direct do Instagram.  
+- Mensagem personalizada para cada disparo.  
+- Captura de usernames diretamente do banco de dados (**coluna `username`**).  
+- Interface web simples e intuitiva.  
+- Controle do delay para evitar bloqueios da plataforma.
+
+---
+
+## 🏗️ Tecnologias Utilizadas
+
+- Python  
+- Selenium  
+- Banco de dados SQL (SQLite, MySQL, etc.)  
+- Flask (para a interface web)  
+- HTML + CSS (customização da interface)
+
+---
+
+## ⚠️ Aviso
+
+Este projeto é para fins educacionais. Use com responsabilidade, respeitando os termos de uso do Instagram.
+
+---
+
+## 👨‍💻 Desenvolvido por
+
+[Leonardo Sales](https://github.com/salesleozz)
+
+---
+
+# 💌 Instagram Direct Message Sender
+
+Introducing a tool for sending direct messages on Instagram, which sends messages based on a table in the user’s database (it only pulls data from the column named **`username`**).
+
+---
+
+## 🚀 Step-by-step Guide
+
+- Start the code in VSCode or your preferred IDE.  
+- Go to the **`app.py`** file and update the `my_username` and `my_password` fields.  
+- Open **`database.py`** and set up the database you want to use.  
+- Go to **`static/css/images`** and replace the existing image with your logo or icon.  
+- Open **`templates/index.html`** and update the image path.  
+- Everything is set up and ready to run!  
+- Open the terminal, type `python app.py` and click the localhost link generated.  
+- In the first field, select the table you want to use from your database.  
+- In the second field, type the message you want to send.  
+- In the third field, set the delay in seconds between each message (to avoid blocks).
+
+---
+
+## 🧠 How It Works
+
+- Automated Instagram Direct message sending.  
+- Customizable messages for each campaign.  
+- Pulls usernames directly from your database (**`username`** column).  
+- Simple and intuitive web interface.  
+- Delay control to avoid platform restrictions.
+
+---
+
+## 🏗️ Technologies Used
+
+- Python  
+- Selenium  
+- SQL Database (SQLite, MySQL, etc.)  
+- Flask (for the web interface)  
+- HTML + CSS (interface customization)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for educational purposes only. Use responsibly, respecting Instagram's terms of use.
+
+---
+
+## 👨‍💻 Developed by
+
+[Leonardo Sales](https://github.com/salesleozz)
